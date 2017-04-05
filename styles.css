@@ -1,7 +1,78 @@
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
 
 body {
-  background-color: #ECF0F1
+  background-color: #2C3E50;
   margin: 0;
   font-family: 'Maven Pro', sans-serif;
+  color: white;
+}
+
+* {
+  outline: 1px dotted red;
+}
+
+#header {
+  height: 90px;
+  background-color: #ECF0F1;
+  color: white;
+  border-bottom: 5px solid #2980B9;
+
+}
+#nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo
+{
+  float: left;
+  font-size: 2rem;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2C3E50;
+}
+#logo p {
+  font-size: 0.9rem;
+  margin-top: 0px;
+  font-weight: normal;
+  letter-spacing: 3.4px;
+}
+
+#links {
+  float: left;
+  font-size: 1rem;
+  margin-top: 42px;
+  margin-left: 100px;
+  color: #484e61;
+  }
+
+#links a {
+  color: #2c3e50;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#banner {
+  background-color: #3A99DB;
+  padding-top: 40px;
+  text-align: center;
+  height: 600px;
+}
+
+#introStrip {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 68px;
+  font-size: 1.1rem;
+  line-height: 2.0rem;
+}
+#intro {
+  width: 800px;
+  height: 250px;
+}
+#intro h2 {
+  font-size: 3rem;
 }
