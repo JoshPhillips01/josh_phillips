@@ -25,11 +25,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+#innerNav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #logo
 {
   float: left;
+  width: 140px;
   font-size: 2rem;
   margin-top: 15px;
+
   font-weight: bold;
   color: #2C3E50;
 }
@@ -42,6 +49,7 @@ body {
 
 #links {
   float: left;
+  width: 600px;
   font-size: 1rem;
   margin-top: 42px;
   margin-left: 100px;
@@ -58,7 +66,14 @@ body {
   background-color: #3A99DB;
   padding-top: 40px;
   text-align: center;
-  height: 600px;
+  height: 550px;
+}
+
+#banner img {
+  max-width: 790px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
 }
 
 #introStrip {
@@ -75,4 +90,9 @@ body {
 }
 #intro h2 {
   font-size: 3rem;
+}
+
+#portfolioStrip {
+  width: 960px;
+  height: 860px;
 }
