@@ -36,7 +36,6 @@ body {
   width: 140px;
   font-size: 2rem;
   margin-top: 15px;
-
   font-weight: bold;
   color: #2C3E50;
 }
@@ -78,21 +77,40 @@ body {
 
 #introStrip {
   max-width: 960px;
+  height: 260px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 68px;
-  font-size: 1.1rem;
-  line-height: 2.0rem;
+  margin-bottom: 68px;
+
 }
+
 #intro {
-  width: 800px;
+  width: 720px;
   height: 250px;
+  float: left;
 }
 #intro h2 {
   font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#intro p {
+  font-size: 1.1rem;
+  line-height: 2.0rem;
+  width: 700px;
 }
 
-#portfolioStrip {
-  width: 960px;
+#introImage {
+  float: left;
+  width: 173px;
+  height: 260px;
+  margin-left: 30px;
+}
+
+#porfolioStrip {
   height: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ECF0F1;
 }
